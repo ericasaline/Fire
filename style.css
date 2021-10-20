@@ -1,12 +1,16 @@
+body {
+    background-color: #000000;
+}
+
 table {
     border-collapse: collapse;
-    border: 3px solid;
+    border: 5px solid;
 }
 
 td {
     width: 50px;
     height: 50px;
-    border: 3px solid;
+    border: 5px solid;
     text-align: center;
     vertical-align: center;
     font-family: monospace;
@@ -14,10 +18,23 @@ td {
     position: relative;
 }
 
-.pixel-index {
+#pixel-index {
     font-size: 10px;
     display: inline-block;
     position: absolute;
     top: 2px;
     right: 2px;
+}
+
+td#pixel {
+    width: 5px;
+    height: 5px;
+    border: 0;
+}
+
+#fireCanvas {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
