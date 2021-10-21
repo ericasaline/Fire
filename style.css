@@ -1,10 +1,11 @@
 body {
-    background-color: #000000;
+    background-color: #131212;
 }
 
 table {
     border-collapse: collapse;
     border: 5px solid;
+    box-shadow: 7px 7px 12px #000000b6;
 }
 
 td {

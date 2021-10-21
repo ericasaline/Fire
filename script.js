@@ -9,9 +9,9 @@ const fireColorsPalette = [{"r":7,"g":7,"b":7},{"r":31,"g":7,"b":7},{"r":47,"g":
 function start() {
     fireStructure()
     createFire()
-
-    setInterval(firePropagation, 10)
+    setInterval(firePropagation, 50)
 }
+
 
 function fireStructure() {
     const pixelsNumber = width * height
@@ -20,7 +20,6 @@ function fireStructure() {
         pixelsArray[i] = 0
     }
 }
-
 
 
 function renderFire() {
