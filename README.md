@@ -1,4 +1,4 @@
-# Fire
+# [Fire](https://ericasaline.github.io/Fire/)
 
 ### Doom Fire Effect
 <img src="https://github.com/ericasaline/Fire/blob/main/fire.PNG" alt="Fire" width="500"/>
